@@ -13,3 +13,7 @@ p [r3.rand, r3.rand]
 
 srand(42)
 p rand(10)
+
+require 'securerandom'
+p SecureRandom.random_bytes(12)
+p SecureRandom.base64(12)
